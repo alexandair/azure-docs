@@ -83,7 +83,7 @@ The **DscResourceStatusData** operation contains error information for any DSC r
 
 Click each operation in the list to see the data for that operation.
 
-You can also view the logs by [searching in Log Analytics. 
+You can also view the logs by searching in Log Analytics. 
 See [Find data using log searches](../log-analytics/log-analytics-log-searches.md).
 Type the following query to find your DSC logs:
 `Type=AzureDiagnostics ResourceProvider="MICROSOFT.AUTOMATION" Category = "DscNodeStatus"`
